@@ -1,0 +1,28 @@
+.parent {
+height:auto;
+display:flex;
+}
+
+#header{
+    text-align: center;
+}
+
+#container{
+    display: flex;
+}
+
+#box1{
+    background-color: black;
+    text-align: center;
+    padding: 25px;
+    box-shadow: 6px 10px 14px 4px #000000bf;
+    margin: 25px;
+}
+
+#box1 p:first-of-type{
+    color: white;
+}
+
+#box1 p:last-of-type{
+    color: red;
+}
